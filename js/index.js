@@ -4,6 +4,7 @@ let categoria = document.getElementById("categorias")
 
 let longitud = function () {
     console.log("ejecuta longitud")
+    window.location="./longitud.html";
 }
 
 let elegirCategoia = function () {
