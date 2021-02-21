@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optimizador</title>
+    <link rel="stylesheet" href="./css/longitud.css">
 </head>
 <body>
     <!-- Encabezado -->
@@ -36,27 +37,29 @@
         </div>
         <div class="contenedor">
             <div class="col-6">
-                <div class="form-floating mb-3">
+                <div class="longClass">
                     <div>
-                        <input type="text" class="form-control" id="refCorte" placeholder="Referencia">
                         <label for="refCorte">Referencia</label>
+                        <input type="text" class="longInputs" id="refCorte" placeholder="Referencia">
                     </div>
                     <div>
-                        <input type="number" class="form-control" id="longCorte" placeholder="Longitud">
                         <label for="longCorte">Longitud</label>
+                        <input type="number" class="longInputs" id="longCorte" placeholder="Longitud">
                     </div>
                     <div>
-                        <input type="number" class="form-control" id="cantCorte" placeholder="Cantidad">
                         <label for="cantCorte">Cantidad</label>
+                        <input type="number" class="longInputs" id="cantCorte" placeholder="Cantidad">
                     </div>
                     <div>
-                        <button class="btn btn-outline-primary" type="button" id="button-addon2">Agregar</button>
+                        <button class="btn btn-outline-primary" type="button" id="botonAgregar">Agregar</button>
                     </div>
+                </div>
+                <div id="listaCorte">
+                    
                 </div>
             </div>
         </div>
     </section>
-
     <script src="./js/longitud.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
